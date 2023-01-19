@@ -3,25 +3,28 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+first_name: Aditya
+middle_name: Kumar
+last_name: Singh
+email: aditya.si@research.iiit.ac.in
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
+#   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: >
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+keywords: rodosingh, rodosingh-website, jekyll-theme, academic-website, portfolio-website, al-folio  # add your own keywords or leave empty
+
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+# icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/) favicongenerator: https://realfavicongenerator.net/
+icon:
+
+url: https://rodosingh.github.io # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path: true # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
@@ -41,7 +44,6 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
 rss_icon: true
 
 # -----------------------------------------------------------------------------
@@ -64,9 +66,47 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: rodosingh # your GitHub user name
+twitter_username: rodosingh23 # your Twitter handle ---
+medium_username: rodosingh # your Medium username
+linkedin_username: aditya-singh-9639a8175 # your LinkedIn user name
+scholar_userid: n14DqPkAAAAJ # your Google Scholar ID
+kaggle_id: rodosingh # your kaggle id = rodosingh
+spotify_id: 312ybkhvukb4xot5q675x2kwkp6m # your spotify id
+facebook_id: RodoAditya # your facebook id = RodoAditya ---
+gitlab_username: # your GitLab user name
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+telegram_username: # your Telegram user name
+semanticscholar_id: # your Semantic Scholar ID
+whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+orcid_id: # your ORCID ID
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
+work_url: # work page URL
+keybase_username: # your keybase user name
+wikidata_id: # your wikidata id
+dblp_url: # your DBLP profile url
+stackoverflow_id: # your stackoverflow id
+lastfm_id: # your lastfm id
+pinterest_id: # your pinterest id
+unsplash_id: # your unsplash id
+instagram_id: # your instagram id = rodosingh
+facebook_id: # your facebook id
+youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+discord_id: # your discord id (18-digit unique numerical identifier)
+
+contact_note: >
+  Feel free to reach me through Twitter, LinkedIn, or drop me an Email for any queries or suggestions.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -78,7 +118,6 @@ google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
@@ -87,8 +126,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: rodo_blogs # blog_name will be displayed in your blog page
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: Expository musings of some of my experiences and learnings. # blog description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -103,15 +143,15 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  repo: rodosingh/rodosingh.github.io   # <your-github-user-name>/<your-github-repo-name>
+  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+  category: Comments                    # name of the category under which discussions will be created
+  category_id: DIC_kwDOA5PmLc4CTBt6
+  mapping: title                        # identify discussions by post title
+  strict: 1                             # use strict identification mode
+  reactions_enabled: 1                  # enable (1) or disable (0) emoji reactions
+  input_position: bottom                # whether to display input form below (bottom) or above (top) the comments
+  theme: preferred_color_scheme         # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
 
@@ -124,7 +164,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://medium.com/@rodosingh/feed
   - name: Google Blog
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -151,7 +191,10 @@ collections:
     permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /:collection/:title/
+    permalink: /projects/:path/
+
+news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+news_limit: # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -196,7 +239,7 @@ keep_files:
   - CNAME
   - .nojekyll
 
-# Plug-ins
+# Plug-ins (for Jekyll >= 3.5.0, use plugins: else use gems:)
 plugins:
   - jekyll-archives
   - jekyll-email-protect
@@ -219,7 +262,7 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets"
+      path: "assets/**/*.*"
     values:
       sitemap: false
 
@@ -257,7 +300,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_tags: ["formatting", "images", "links", "math", "code", "blockquotes", 'tweets'] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
@@ -265,8 +308,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+
+  last_name: [Singh]
+  first_name: [Aditya, A.]
 
   style: apa
   locale: en
@@ -325,7 +369,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 4 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -363,7 +407,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 85"
+    webp: "-resize 1000x"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.

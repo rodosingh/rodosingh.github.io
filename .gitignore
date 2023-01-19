@@ -11,3 +11,5 @@ assets/libs/
 node_modules/
 vendor
 .idea
+assets/img/favicons_old/
+_ignored-files/
