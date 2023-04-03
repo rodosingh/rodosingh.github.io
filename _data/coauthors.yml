@@ -4,6 +4,18 @@
   - firstname: ["B. Uma", "B Uma", "B. U.", "B. Uma Shankar"]
     url: https://www.isical.ac.in/~uma/
 
+"Singh":
+  - firstname: ["Aditya Kumar", "Aditya", "A. K.", "A. K. Singh"]
+    url: https://rodosingh.github.io/
+
+"Tapaswi":
+  - firstname: ["Makarand", "M.", "M. Tapaswi"]
+    url: https://makarandtapaswi.github.io/
+
+"Srivastava":
+  - firstname: ["Dhruv", "D.", "D. Srivastava"]
+    url: https://www.linkedin.com/in/dhruvhacks/
+
 # -------------------------------
 # Coauthors Template
 # -------------------------------
