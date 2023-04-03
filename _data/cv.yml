@@ -22,7 +22,7 @@
       institution: Indian Instiute of Science Education and Research, Kolkata, India
       year: 2016 - 2021
       description:
-        - Advised by <a href="https://www.isical.ac.in/~uma/">Prof. B. Uma Shankar</a> and Co-advised by <a href="https://www.iiserkol.ac.in/web/en/people/faculty/dms/satyaki/#gsc.tab=0">Prof. Satyaki Mazumder</a>.
+        - <b>MS Advisor:</b> <a href="https://www.isical.ac.in/~uma/">Prof. B. Uma Shankar</a> and Co-advised by <a href="https://www.iiserkol.ac.in/web/en/people/faculty/dms/satyaki/#gsc.tab=0">Prof. Satyaki Mazumder</a>.
         - <span>GPA:<span> 8.38/10
         - <span>Courses taken:</span> Regression Analysis, DSA, Statistical Inference, Linear Algebra I and II, Real Analysis I and II, Group and Ring Theory
 
@@ -33,14 +33,15 @@
       institution: International Institute of Information Technology, Hyderabad, India
       year: 2022 - Present
       description:
-        - Advised by <a href="https://makarandtapaswi.github.io/">Prof. Makarand Tapaswi</a>.
-        - <b>Long-from video summarization</b> via human-emotion recognition and tracking as well as auto key-points detection in long-form videos like web-series, and movies, which in itself is a novel research problem. It involves a novel way of auto-labeling multi-modal data samples. Further, the approach to fuse multi-modal signals and train our model to make sense of it is itself a very challenging task. <i>Paper arriving soon!</i>
-        - <b>Learning emotion and mental states for movie characters</b> via joint-modeling on scene, characters and dialog modalities to predict more than one emotion or mental state (multi-label) for each character and the whole scene. Besides, we analysed the self-attention mechanism on how model learns to look at relevant modalities at the right time. <i>Paper arriving soon!</i>
+        - <b>MS Advisor:</b> <a href="https://makarandtapaswi.github.io/">Prof. Makarand Tapaswi</a>.
+        - <b>PROJECT 1:</b> <b>Long-from video summarization</b> via human-emotion recognition and tracking as well as auto key-points detection in long-form videos like web-series, and movies, which in itself is a novel research problem. It involves a novel way of auto-labeling multi-modal data samples. Further, the approach to fuse multi-modal signals and train our model to make sense of it is itself a very challenging task. <i>Paper arriving soon!</i>
+        - <b>PROJECT 2:</b> <b>[CVPR'23] - Learning emotion and mental states for movie characters</b> via joint-modeling on scene, characters and dialog modalities to predict more than one emotion or mental state (multi-label) for each character and the whole scene. Besides, we analysed the self-attention mechanism on how model learns to look at relevant modalities at the right time. <b><i>Link arriving soon!</i></b> 
     - title: MS Thesis @ ISI Kolkata
       institution: Indian Statistical Institute, Kolkata, India
       year: 2020 - 2021
       description:
-        - <b>Modeling and Reviewing</b> Multi-label classification of highly imbalanced Amazon rainforest images via transfer learning using all possible fine-tuned pre-trained models used in ImageNet challenges till date. Plus, implemented & reviewed promising ML models (Random Forest, XGboost, GBC, etc.) on the same.
+        - <b>Advisor:</b> <a href="https://www.isical.ac.in/~uma/">Prof. B. Uma Shankar</a>
+        - <b>PROJECT:</b> <b>Modeling and Reviewing</b> multi-label classification of highly imbalanced Amazon rainforest images via transfer learning using all possible fine-tuned pre-trained models used in ImageNet challenges till date. Plus, implemented & reviewed promising ML models (Random Forest, XGboost, GBC, etc.) on the same.
         - <b>Final touch:</b> Ensembled all the above ImageNet models in Integrated Stacking format and fine-tuned (Meta learning) to achieve the best result among all the tried out methods. <a href="https://arxiv.org/abs/2201.01971">Article Link</a>
 
     - title: Teaching Assistant @ IISER Kolkata
@@ -59,6 +60,19 @@
     #   institution: University of Zurich, Zurich, Switzerland
     #   year: 1909 - 1911
 
+- title: Publications
+  type: time_table
+  contents:
+    - title: <a href="https://arxiv.org/">How you feelin'? Learning Emotions and Mental States in Movie Scenes</a>
+      year: 2023
+      description:
+        - <b>Authors:</b> <a href="https://www.linkedin.com/in/dhruvhacks/">Dhruv Srivastava</a>, <a href="/">Aditya Kumar Singh</a>, <a href="https://makarandtapaswi.github.io/">Prof. Makarand Tapaswi</a>
+        - <b>Conference:</b> <i><a href="http://cvpr2023.thecvf.com/">CVPR</a></i>  (June) 2023, Vancouver, Canada.
+    - title: <a href="https://arxiv.org/abs/2201.01971">Multi-Label Classification on Remote-Sensing Images</a>
+      year: 2021
+      description:
+        - <b>Authors:</b> <a href="https://rodosingh.github.io">Aditya Kumar Singh</a>, <a href="https://www.isical.ac.in/~uma/">B. Uma Shankar</a>
+        - <b>Conference:</b> <i>NA</i>. Available on ArXiv.
 - title: Open Source & Course Projects
   type: time_table
   contents:
