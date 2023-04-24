@@ -35,7 +35,7 @@
       description:
         - <b>MS Advisor:</b> <a href="https://makarandtapaswi.github.io/">Prof. Makarand Tapaswi</a>.
         - <b>PROJECT 1:</b> <b>Long-from video summarization</b> via human-emotion recognition and tracking as well as auto key-points detection in long-form videos like web-series, and movies, which in itself is a novel research problem. It involves a novel way of auto-labeling multi-modal data samples. Further, the approach to fuse multi-modal signals and train our model to make sense of it is itself a very challenging task. <i>Paper arriving soon!</i>
-        - <b>PROJECT 2:</b> <b>[CVPR'23] - Learning emotion and mental states for movie characters</b> via joint-modeling on scene, characters and dialog modalities to predict more than one emotion or mental state (multi-label) for each character and the whole scene. Besides, we analysed the self-attention mechanism on how model learns to look at relevant modalities at the right time. <b><i>Link arriving soon!</i></b> 
+        - <b><a href="https://katha-ai.github.io/projects/emotx/">PROJECT 2:</a></b> <b>[CVPR'23] - Learning emotion and mental states for movie characters</b> via joint-modeling on scene, characters and dialog modalities to predict more than one emotion or mental state (multi-label) for each character and the whole scene. Besides, we analysed the self-attention mechanism on how model learns to look at relevant modalities at the right time.
     - title: MS Thesis @ ISI Kolkata
       institution: Indian Statistical Institute, Kolkata, India
       year: 2020 - 2021
@@ -63,7 +63,7 @@
 - title: Publications
   type: time_table
   contents:
-    - title: <a href="https://arxiv.org/">How you feelin'? Learning Emotions and Mental States in Movie Scenes</a>
+    - title: <a href="https://arxiv.org/abs/2304.05634">How you feelin'? Learning Emotions and Mental States in Movie Scenes</a>
       year: 2023
       description:
         - <b>Authors:</b> <a href="https://www.linkedin.com/in/dhruvhacks/">Dhruv Srivastava</a>, <a href="/">Aditya Kumar Singh</a>, <a href="https://makarandtapaswi.github.io/">Prof. Makarand Tapaswi</a>
