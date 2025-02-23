@@ -80,8 +80,8 @@ medium_username: rodosingh # your Medium username
 linkedin_username: aditya-singh-9639a8175 # your LinkedIn user name
 scholar_userid: n14DqPkAAAAJ # your Google Scholar ID
 kaggle_id: rodosingh # your kaggle id = rodosingh
-spotify_id: 312ybkhvukb4xot5q675x2kwkp6m # your spotify id
-facebook_id: RodoAditya # your facebook id = RodoAditya ---
+# spotify_id: # your spotify id
+# facebook_id: # your facebook id = RodoAditya ---
 gitlab_username: # your GitLab user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 telegram_username: # your Telegram user name
@@ -101,7 +101,6 @@ lastfm_id: # your lastfm id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id = rodosingh
-facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
