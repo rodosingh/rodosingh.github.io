@@ -218,3 +218,198 @@ You can still follow the steps above, but `git rebase` may result in merge confl
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
 If rebasing is too complicated, we recommend re-installing the new version of the theme from scratch and port over your content and changes from the previous version manually. You can use tools like [meld](https://meldmerge.org/)
 or [winmerge](https://winmerge.org/) to help in this process.
+
+
+## My Setup [STALE]
+
+
+#### Local setup using Docker (Recommended on Windows)
+
+You need to take the following steps to get `al-folio` up and running in your local machine:
+
+- First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
+- Then, clone this repository to your machine:
+
+```bash
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+```
+
+Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
+
+```bash
+$ docker-compose up
+```
+
+Note that when you run it for the first time, it will download a docker image of size 300MB or so.
+
+Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
+
+> To change port number, you can edit `docker-compose.yml` file.
+
+<details><summary>(click to expand) <strong>Build your own docker image:</strong></summary>
+
+> Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
+
+Build and run a new docker image using:
+```bash
+$ docker-compose -f docker-local.yml up
+```
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
+
+</details>
+
+---
+
+#### Local Setup (Standard)
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+
+```bash
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+*Note: If you are in Ubuntu machine (>=20.04) and facing issues with `bundle install` and getting error message as follows:*
+> sass-embedded-1.57.1-x86_64-linux-gnu requires rubygems version >= 3.3.22, which is incompatible with the current version, 3.1.2
+then follow the steps below:
+
+```bash
+$ sudo apt-get install ruby-full
+# Create a folder by name ~/.rbenv and clone the rbenv repository into it.
+$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+$ echo 'eval "$(~/.rbenv/bin/rbenv init - bash)"' >> ~/.bashrc # visit: https://github.com/rbenv/rbenv for more details
+# list the latest stable versions:
+$ rbenv install -l
+# list all local versions:
+$ rbenv install -L
+# install a Ruby version (e.g. 3.2.0 the latest stable version as of 2021-09-01):
+$ rbenv install 3.2.0
+$ rbenv install 3.0.5 # worked for me on Ubuntu 20.04 LTS(2022) as tainted method is deprecated in Ruby 3.2.0 (https://github.com/jekyll/jekyll/issues/9231)
+$ rbenv global 3.2.0   # set the default Ruby version for this machine
+# Good part: With 3.2.0, we can have latest version of rubygems (3.4.1) and bundler (2.4.1) installed by default.
+# or:
+$ rbenv local 3.0.5    # set the Ruby version for this directory (preferred)
+$ gem install bundler:2.4.1  # install bundler (as bundler is not installed by default with ruby 3.0.5)
+# With all that set, if you run `bundle install` again, it should work fine.
+# For me the nokogiri gem was failing to install, so I had to install it separately using:
+$ gem install nokogiri -- --use-system-libraries --with-xml2-include=$(brew --prefix libxml2)/include/libxml2 #https://nokogiri.org/tutorials/installing_nokogiri.html
+# Also for some gems like 'mini_racer' got stuck during installation, but that got resolved after installing standrd Ubuntu libraries as asked in the error message.
+```
+
+*Version details for `Ruby` can be found [here](https://www.ruby-lang.org/en/downloads/releases/) and for `rubygems` [here](https://rubygems.org/gems/rubygems-update/versions).*
+
+And to install `mermaid.cli` follow the below steps:
+
+```bash
+# If puppeteer version is not compatible with your node version, then install puppeteer with the following command:
+$ sudo PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install puppeteer
+# Next install mermaid.cli:
+$ sudo PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install -g mermaid.cli
+```
+
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
+
+---
+
+#### Deployment
+
+Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
+Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
+
+**For personal and organization webpages:**
+1. Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
+2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
+3. Set up automatic deployment of your webpage (see instructions below).
+4. Make changes, commit, and push!
+5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
+
+**For project pages:**
+1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
+2. Set up automatic deployment of your webpage (see instructions below).
+3. Make changes, commit, and push!
+4. After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
+
+**To enable automatic deployment:**
+1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
+2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
+3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
+4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+
+
+<details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
+
+If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
+```bash
+$ ./bin/deploy
+```
+uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+
+</details>
+
+<details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
+
+If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+```bash
+$ bundle exec jekyll build
+```
+which will (re-)generate the static webpage in the `_site/` folder.
+Then simply copy the contents of the `_site/` foder to your hosting server.
+
+**Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
+
+</details>
+
+<details><summary>(click to expand) <strong>Deployment to a separate repository (advanced users only):</strong></summary>
+
+**Note:** Do not try using this method unless you know what you are doing (make sure you are familiar with [publishing sources](https://help.github.com/en/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)). This approach allows to have the website's source code in one repository and the deployment version in a different repository.
+
+Let's assume that your website's publishing source is a `publishing-source` sub-directory of a git-versioned repository cloned under `$HOME/repo/`.
+For a user site this could well be something like `$HOME/<user>.github.io`.
+
+Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
+
+Then from the website sources dir (commonly your al-folio fork's clone):
+```bash
+$ bundle exec jekyll build --destination $HOME/repo/publishing-source
+```
+
+This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
+
+**Note:** Jekyll will clean `$HOME/repo/publishing-source` before building!
+
+The quote below is taken directly from the [jekyll configuration docs](https://jekyllrb.com/docs/configuration/options/):
+
+> Destination folders are cleaned on site builds
+>
+> The contents of `<destination>` are automatically cleaned, by default, when the site is built. Files or folders that are not created by your site will be removed. Some files could be retained by specifying them within the `<keep_files>` configuration directive.
+>
+> Do not use an important location for `<destination>`; instead, use it as a staging area and copy files from there to your web server.
+
+If `$HOME/repo/publishing-source` contains files that you want jekyll to leave untouched, specify them under `keep_files` in `_config.yml`.
+In its default configuration, al-folio will copy the top-level `README.md` to the publishing source. If you want to change this behaviour, add `README.md` under `exclude` in `_config.yml`.
+
+**Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
+
+</details>
+
+---
+
+#### Upgrading from a previous version
+
+If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
+
+```bash
+# Assuming the current directory is <your-repo-name>
+$ git remote add upstream https://github.com/alshedivat/al-folio.git
+$ git fetch upstream
+$ git rebase v0.3.5
+```
+
+If you have extensively customized a previous version, it might be trickier to upgrade.
+You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
+See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
+If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
