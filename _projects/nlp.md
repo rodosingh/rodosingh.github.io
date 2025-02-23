@@ -15,4 +15,4 @@ Hypernymy, namely "is-a" relation, is a vital lexical-semantic relation in natur
 
 Given an input term (or a hyponym $$q$$), our alogrithm need to retrieves a ranked list (possibly of length $$15$$) of its suitable hypernyms ($$h$$) from a large corpus.
 
-$$\rightarrow$$ *For more details, please refer to the [project repo](https://github.com/rodosingh/Intro-NLP-IIITH/tree/main/Project/37_FinalProject) and [report](https://github.com/rodosingh/Intro-NLP-IIITH/blob/main/Project/37_FinalProject/37_FinalReport.pdf).*
+$$\rightarrow$$ _For more details, please refer to the [project repo](https://github.com/rodosingh/Intro-NLP-IIITH/tree/main/Project/37_FinalProject) and [report](https://github.com/rodosingh/Intro-NLP-IIITH/blob/main/Project/37_FinalProject/37_FinalReport.pdf)._

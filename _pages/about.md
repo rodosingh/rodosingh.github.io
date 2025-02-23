@@ -13,9 +13,9 @@ profile:
     <p>Gachibowli, 500-032</p>
     <p>Telangana, INDIA</p>
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 #### Hey Voila! :wave:

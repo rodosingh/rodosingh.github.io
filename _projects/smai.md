@@ -20,18 +20,18 @@ The dataset is taken from the [Quora Question Pairs competition on Kaggle](https
 The approach is divided into three parts:
 
 1. Linear Models (with Unigrams, Bigrams, and Trigrams)
-    1. Logistic Regression
-    2. Linear SVM
+   1. Logistic Regression
+   2. Linear SVM
 2. Tree-based Models
-    1. Decision Trees
-    2. Random Forest
-    3. XGBoost
+   1. Decision Trees
+   2. Random Forest
+   3. XGBoost
 3. Deep Learning Models
-    1. CBOW + MLP
-    2. GloVe + LSTM
-    3. GloVe + BiLSTM
-    4. GloVe + LSTM + Attention
-    5. GloVe + BiLSTM + Attention
-    6. BERT (Best Model)
+   1. CBOW + MLP
+   2. GloVe + LSTM
+   3. GloVe + BiLSTM
+   4. GloVe + LSTM + Attention
+   5. GloVe + BiLSTM + Attention
+   6. BERT (Best Model)
 
-$$\rightarrow$$ *More details can be found in the [project report](https://github.com/rodosingh/SMAI-IIITH/blob/main/Projects/Team-25_Abraca-Data/Team-25_SMAI_Final_Report_Abraca-Data.pdf) as well as the [project repo](https://github.com/DhavalTaunk08/smai_project).*
+$$\rightarrow$$ _More details can be found in the [project report](https://github.com/rodosingh/SMAI-IIITH/blob/main/Projects/Team-25_Abraca-Data/Team-25_SMAI_Final_Report_Abraca-Data.pdf) as well as the [project repo](https://github.com/DhavalTaunk08/smai_project)._

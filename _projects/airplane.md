@@ -26,12 +26,13 @@ This system has both `Admin` and `User` modes.
    8. Remove reservations
    9. Modify reservations
 2. User Mode
-    1. Make reservations
-    2. View reservations
+   1. Make reservations
+   2. View reservations
 
 #### How to Run?
 
 Follow the steps mentioned in `How to run it?` section of [this](https://drive.google.com/file/d/1TuZaVvoMUrA7pblTnr7-Li_vHfPsK1-X/view?usp=sharing) document. Also we've released a **tutorial video** on how to run it [here](https://drive.google.com/file/d/1HwenpWVn1duVe1l_P6J582Gx426k_42U/view?usp=sharing).
 
 ---
-*Note: The code can be found [here](https://github.com/rodosingh/Airplane-Reservation-System)*
+
+_Note: The code can be found [here](https://github.com/rodosingh/Airplane-Reservation-System)_

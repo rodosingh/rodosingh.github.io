@@ -14,6 +14,7 @@ The task of Moving Objects Segmentation also called **Motion Segmentation** (or 
 ##### Categories of VOS methods
 
 This problem is dealt in many ways in the literature and broadly categorized into methods based on training and architectures used in training. Based on the training methods (i.e., how human interventions are involved), VOS methods are grouped into 4 types [[paper](https://arxiv.org/abs/2107.01153)]:
+
 1. Unsupervised (**UVOS** or AVOS),
 2. Semi-supervised (**SVOS**),
 3. Interactive (**IVOS**), and
@@ -22,9 +23,10 @@ This problem is dealt in many ways in the literature and broadly categorized int
 Based on the architectures, it is grouped into 3: Deep Learning Techniques( CNN’s, Transformers, Encoder-Decoder etc), Non-Deep Learning Techniques (frame differences, optical flow, MRF/CRF) and combination of both. In this project we deal with unsupervised and semi-supervised methods using Deep Learning and Non-Deep Learning based techniques.
 
 ##### Problem Formulation and Taxonomy
+
 Formally, let $$X$$ and $$Y$$ denote the input space and output segmentation space, respectively. Deep learning-based video segmentation solutions generally seek to learn an ideal video-to-segment mapping $$f^*: X \longrightarrow Y$$.
 
-In our project we’ll be experimenting with two deep-learning based *UVOS* methods, namely, [**MATNet**](https://arxiv.org/abs/2003.04253) and [**RTNet**](https://openaccess.thecvf.com/content/CVPR2021/papers/Ren_Reciprocal_Transformations_for_Unsupervised_Video_Object_Segmentation_CVPR_2021_paper.pdf), and one deep-learning based *SVOS* method involving Transformers ([**TransVOS**](https://arxiv.org/abs/2106.00588)).
+In our project we’ll be experimenting with two deep-learning based _UVOS_ methods, namely, [**MATNet**](https://arxiv.org/abs/2003.04253) and [**RTNet**](https://openaccess.thecvf.com/content/CVPR2021/papers/Ren_Reciprocal_Transformations_for_Unsupervised_Video_Object_Segmentation_CVPR_2021_paper.pdf), and one deep-learning based _SVOS_ method involving Transformers ([**TransVOS**](https://arxiv.org/abs/2106.00588)).
 
 $$\rightarrow$$ For more information on the project, please follow this [repository link](https://github.com/rodosingh/CV-IIITH/tree/main/Project).\
 $$\rightarrow$$ View project report [here](https://github.com/rodosingh/CV-IIITH/blob/main/Project/49_Report.pdf).
