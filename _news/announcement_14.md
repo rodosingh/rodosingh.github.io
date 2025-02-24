@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🛡️ Defended my Master’s thesis 📜 required for the completion of my MS degree 🎓 at IIIT-H! 🎯  
+🛡️ Defended my Master’s thesis 📜 required for the completion of my MS degree 🎓 at IIIT-H! 🎯

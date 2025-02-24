@@ -29,6 +29,23 @@ Academics around the world use this theme for their homepages, blogs, lab pages,
 Check out the community webpages below.
 Feel free to add your own page(s) by sending a PR.
 
+> [!IMPORTANT]
+> Used following commands to host locally and also clean cache if something goes wrong.
+>
+> ```bash
+> # Assuming you inside rodosingh.github.io
+> # For cache cleaning
+> rm -rf _site .jekyll-cache
+> rbenv rehash
+> # For pretty code checking...
+> npx prettier . --check
+> npx prettier . --write
+> # To host/serve locally
+> bundle exec jekyll serve
+> ```
+>
+> Also the `gh-pages` is for build and storing the generated `.html` files. So no need to update/sync `gh-pages`. See the tutorial video at [video](./assets/video/tutorial_al_folio.mp4).
+
 <table>
 <tr>
 <td>Academics</td>

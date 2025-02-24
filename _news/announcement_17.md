@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 🚀 Joined the **AMD GenAI** team as a **Research Engineer** 🧑‍💻.  
-🔥 Working on building fully **open-source LMMs** from scratch on **AMD Instinct GPUs** ⚡ (MI300 / MI250).
+🔥 Building fully **open-source LMMs** from scratch on **AMD Instinct GPUs** ⚡ (MI300 / MI250).

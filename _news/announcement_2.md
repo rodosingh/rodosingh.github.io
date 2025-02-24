@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Successfully defended my thesis 🛡️ and graduated with a **BS-MS dual degree** in **Mathematics and Statistics** 📊 from [IISER Kolkata](https://www.iiserkol.ac.in/) 🎓.  
+🎉 Successfully defended my thesis 🛡️ and graduated with a **BS-MS dual degree** in **Mathematics and Statistics** 📊 from [IISER Kolkata](https://www.iiserkol.ac.in/) 🎓.

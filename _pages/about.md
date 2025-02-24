@@ -36,26 +36,25 @@ I am currently focusing 🎯 on RL, Diffusion, and partially, Efficient Training
 🎭 [Emotion Recognition of Movie Characters](https://katha-ai.github.io/projects/emotx/) using Video & Text Signals.
 
 🛠️ **Before IIITH:**  
-I was a Research Intern at [Indian Statistical Institute, Kolkata](https://www.isical.ac.in/) (2020-21) 📍, where I worked with [Prof. B. Uma Shankar](https://www.isical.ac.in/~uma/) in the [Machine Intelligence Unit](https://www.isical.ac.in/~miu/) on topic **Multi-label Classification of Remote Sensing Images** 🛰️.  
+I was a Research Intern at [Indian Statistical Institute, Kolkata](https://www.isical.ac.in/) (2020-21) 📍, where I worked with [Prof. B. Uma Shankar](https://www.isical.ac.in/~uma/) in the [Machine Intelligence Unit](https://www.isical.ac.in/~miu/) on topic **Multi-label Classification of Remote Sensing Images** 🛰️.
 
-📚 I graduated with an BS-MS degree in Mathematics & Statistics 📊 from [IISER Kolkata](https://www.iiserkol.ac.in/) in 2021.  
+📚 I graduated with an BS-MS degree in Mathematics & Statistics 📊 from [IISER Kolkata](https://www.iiserkol.ac.in/) in 2021.
 
-In my spare time, I enjoy playing **badminton** 🏸, **swimming** 🏊, and sometimes **biking** 🏍️.  
+In my spare time, I enjoy playing **badminton** 🏸, **swimming** 🏊, and sometimes **biking** 🏍️.
 
-⚡ Riding the wave of AGI innovation! 🚀  
-
+⚡ Riding the wave of AGI innovation! 🚀
 
 #### <ins>Hiring</ins> 🔥
 
-**AMD’s GenAI team** is driving the future of **foundation models** 🤖 and is **hiring**!  
+**AMD’s GenAI team** is driving the future of **foundation models** 🤖 and is **hiring**!
 
-📢 We have multiple open roles, including:  
-1. Research Scientist ([Senior](https://careers.amd.com/careers-home/jobs/58661) & [Junior](https://careers.amd.com/careers-home/jobs/47051?lang=en-us))  
-2. [Research Engineer](https://careers.amd.com/careers-home/jobs/49047?lang=en-us)  
-3. [Research Intern](https://careers.amd.com/careers-home/jobs/56979?lang=en-us)  
+📢 We have multiple open roles, including:
 
-📍 Click above to learn more, and feel free to reach out ✉️ if you're interested!  
+1. Research Scientist ([Senior](https://careers.amd.com/careers-home/jobs/58661) & [Junior](https://careers.amd.com/careers-home/jobs/47051?lang=en-us))
+2. [Research Engineer](https://careers.amd.com/careers-home/jobs/49047?lang=en-us)
+3. [Research Intern](https://careers.amd.com/careers-home/jobs/56979?lang=en-us)
 
+Feel free to reach out ✉️ if you're interested!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

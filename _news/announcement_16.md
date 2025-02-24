@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Graduated with a **MS by Research** degree in **Computer Science and Engineering** 🖥️ from [IIIT Hyderabad](https://www.iiit.ac.in/) 🎓.  
+🎉 Graduated with a **MS by Research** degree in **CSE** 🖥️ from [IIIT Hyderabad](https://www.iiit.ac.in/) 🎓.
