@@ -32,15 +32,13 @@ I'm currently a Research Enginner @ AMD GenAI, where my focus is mostly on build
 
 I am currently focusing 🎯 on RL, Diffusion, and partially, Efficient Training ⚡. Trying to 🔄 transition from my usual research area of **Multimodal Learning** 🎭.  
 🔍 **My Past Projects:**  
-📽️ [Multimodal Video Summarization on Long-form Videos](https://katha-ai.github.io/projects/recap-story-summ/)  
-🎭 [Emotion Recognition of Movie Characters](https://katha-ai.github.io/projects/emotx/) using Video & Text Signals.
+1. 📽️ [Multimodal Story Summarization on Long-form Videos](https://katha-ai.github.io/projects/recap-story-summ/) like TV Episodes.  
+2. 🎭 [Emotion Recognition of Movie Characters](https://katha-ai.github.io/projects/emotx/) using Video & Text Signals.
 
 🛠️ **Before IIITH:**  
 I was a Research Intern at [Indian Statistical Institute, Kolkata](https://www.isical.ac.in/) (2020-21) 📍, where I worked with [Prof. B. Uma Shankar](https://www.isical.ac.in/~uma/) in the [Machine Intelligence Unit](https://www.isical.ac.in/~miu/) on topic **Multi-label Classification of Remote Sensing Images** 🛰️.
 
-📚 I graduated with an BS-MS degree in Mathematics & Statistics 📊 from [IISER Kolkata](https://www.iiserkol.ac.in/) in 2021.
-
-In my spare time, I enjoy playing **badminton** 🏸, **swimming** 🏊, and sometimes **biking** 🏍️.
+📚 I graduated with an BS-MS degree in Mathematics & Statistics 📊 from [IISER Kolkata](https://www.iiserkol.ac.in/) in 2021. In my spare time, I enjoy playing **badminton** 🏸, **swimming** 🏊, and sometimes **biking** 🏍️.
 
 ⚡ Riding the wave of AGI innovation! 🚀
 
