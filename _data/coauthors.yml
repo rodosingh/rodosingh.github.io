@@ -1,26 +1,62 @@
 # Description: Coauthors of the blog posts
 
-"Shankar":
+"shankar":
   - firstname: ["B. Uma", "B Uma", "B. U.", "B. Uma Shankar"]
     url: https://www.isical.ac.in/~uma/
 
-"Singh":
+"singh":
   - firstname: ["Aditya Kumar", "Aditya", "A. K.", "A. K. Singh"]
     url: https://rodosingh.github.io/
 
-"Tapaswi":
+"tapaswi":
   - firstname: ["Makarand", "M.", "M. Tapaswi"]
     url: https://makarandtapaswi.github.io/
 
-"Srivastava":
+"srivastava":
   - firstname: ["Dhruv", "D.", "D. Srivastava"]
     url: https://www.linkedin.com/in/dhruvhacks/
+
+"hada":
+  - firstname: ["Nancy", "N.", "N. Hada"]
+    url: https://in.linkedin.com/in/nancy-hada
+
+"vemuri":
+  - firstname: ["Kavita", "K."]
+    url: https://www.iiit.ac.in/faculty/kavitha-vemuri/
+
+"goel":
+  - firstname: ["Drishti", "D."]
+    url: https://in.linkedin.com/in/drishti-goel-1a731920a
+
+"husain":
+  - firstname: ["Fiza", "F."]
+    url: https://fiza11.github.io/
+
+"ghosh":
+  - firstname: ["Supriyo", "S."]
+    url: https://sites.google.com/site/supriyophdsmu/
+
+"parayil":
+  - firstname: ["Anjaly", "A."]
+    url: https://in.linkedin.com/in/anjaly-parayil
+
+"bansal":
+  - firstname: ["Chetan", "C."]
+    url: https://www.linkedin.com/in/chetanbansal/
+
+"zhang":
+  - firstname: ["Xuchao", "X."]
+    url: https://xuczhang.github.io/
+
+"rajmohan":
+  - firstname: ["Saravan", "S."]
+    url: https://www.microsoft.com/en-us/research/people/saravar/
 
 # -------------------------------
 # Coauthors Template
 # -------------------------------
 
-"Adams":
+"adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
