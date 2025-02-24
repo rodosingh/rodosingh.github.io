@@ -13,12 +13,12 @@ description: >
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-# Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
 keywords: rodosingh, rodosingh-website, jekyll-theme, academic-website, portfolio-website, al-folio # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 # icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/) favicongenerator: https://realfavicongenerator.net/
-icon:
+icon: favicon_package/favicon.ico
 
 url: https://rodosingh.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -68,40 +68,6 @@ max_width: 930px
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-
-github_username: rodosingh # your GitHub user name
-twitter_username: rodosingh23 # your Twitter handle ---
-medium_username: rodosingh # your Medium username
-linkedin_username: aditya-singh-9639a8175 # your LinkedIn user name
-scholar_userid: n14DqPkAAAAJ # your Google Scholar ID
-kaggle_id: rodosingh # your kaggle id = rodosingh
-# spotify_id: # your spotify id
-# facebook_id: # your facebook id = RodoAditya ---
-gitlab_username: # your GitLab user name
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-telegram_username: # your Telegram user name
-semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
-lastfm_id: # your lastfm id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
-instagram_id: # your instagram id = rodosingh
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
   Feel free to reach me through Twitter, LinkedIn, or drop me an Email for any queries or suggestions.
@@ -229,6 +195,9 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _projects/*_project.md
   - purgecss.config.js
   - README.md
   - readme_preview/

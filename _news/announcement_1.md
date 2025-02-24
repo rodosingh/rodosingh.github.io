@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-<b><a href='https://online-inspire.gov.in/'>INSPIRE</a></b> fellowship awardee (2016 - 2021). Given to communicate and attract young talent of the country inclined towards science and technology to pursue their career in R & D base.
+🏅 **[INSPIRE](https://online-inspire.gov.in/) Fellowship** awardee (2016 - 2021) 🎓.  
+🌟 Awarded to inspire and attract young talent towards **Science & Technology** 🚀 for a career in **R&D** 🔬.  

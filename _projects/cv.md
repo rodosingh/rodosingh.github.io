@@ -3,7 +3,7 @@ layout: page
 title: VOS
 description: Video Object Segmentation - Segmenting moving objects in videos.
 img: assets/img/cv/vos.gif
-importance: 2
+importance: 1
 category: course
 ---
 

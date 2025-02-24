@@ -7,4 +7,4 @@ related_posts: false
 
 <!-- A simple inline announcement with Markdown emoji! :sparkles: :smile: -->
 
-Admitted to [MS by Research](https://www.iiit.ac.in/academics/postgraduate/ms/cse/) program in Computer Science and Engineering at [IIIT Hyderabad](https://www.iiit.ac.in/).
+🎉 Admitted to the [MS by Research](https://www.iiit.ac.in/academics/postgraduate/ms/cse/) program in **Computer Science and Engineering** 🖥️ at [IIIT Hyderabad](https://www.iiit.ac.in/) 🎓.

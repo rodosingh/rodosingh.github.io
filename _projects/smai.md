@@ -3,7 +3,7 @@ layout: page
 title: Quora Question Pairs
 description: Can you identify question pairs that have the same intent?
 img: assets/img/smai/quora.png
-importance: 4
+importance: 1
 category: course
 ---
 
